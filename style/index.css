@@ -1,0 +1,39 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 60px;
+  background-color: rgba(92, 119, 227, 0.93);
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+img {
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 1px 2px rgb(59, 89, 119);
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style: none;
+}
+nav li a{
+  padding: 10;
+  text-align: left;
+  color: rgba(14, 3, 64, 0.73);
+
+}
+#acquisitions {
+  padding: 10 60;
+  width: auto;
+}
+main{
+    background-image: url(/images/abdoun-bridge.png);
+    background-size: cover;
+}
