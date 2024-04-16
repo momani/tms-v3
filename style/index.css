@@ -4,11 +4,14 @@
   align-items: flex-end;
   justify-content: space-between;
   padding: 10px 60px;
-  background-color: rgba(92, 119, 227, 0.93);
+  background-color: rgba(92, 119, 227, 0.3);
   font-family: "Jersey 10 Charted", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
 img {
   width: 200px;
@@ -23,17 +26,58 @@ nav > ul {
   padding: 10px;
   list-style: none;
 }
-nav li a{
+nav li a {
   padding: 10;
   text-align: left;
   color: rgba(14, 3, 64, 0.73);
-
+  text-transform: uppercase;
 }
 #acquisitions {
   padding: 10 60;
   width: auto;
+  /* position: relative; */
+  top: 50px;
 }
-main{
-    background-image: url(/images/abdoun-bridge.png);
-    background-size: cover;
+#chart {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 500px;
+  background-color: rgba(201, 184, 73, 0.5);
+  border-radius: 3px;
+
+}
+main {
+  background-image: url(/images/traffic-background.jpg);
+  background-size: cover;
+  text-align: center;
+  /* position: absolute; */
+  height: 800px;
+}
+#moto {
+  background-color: rgba(14, 3, 64, 0.5);
+  text-align: center;
+  font-family: sans-serif;
+  width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  top: 500px;
+
+  /* position: fixed; */
+
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+#moto a {
+  background-color: blanchedalmond;
+  text-decoration: none;
+  color: rgb(144, 71, 40);
+  border-radius: 3px;
+  /* position: absolute; */
+}
+a:hover {
+  box-shadow: 1px 2px 5px rgb(42, 94, 150);
 }
