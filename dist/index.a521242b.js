@@ -679,7 +679,8 @@ var _autoDefault = parcelHelpers.interopDefault(_auto);
             count: 11
         }
     ];
-    new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
+    new (0, _autoDefault.default)(document.getElementsByClassName("acquisitions"), {
+        // new Chart(document.getElementsByName("ch"), {
         type: "line",
         options: {
             animation: false,

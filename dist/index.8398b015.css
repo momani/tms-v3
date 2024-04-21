@@ -1,6 +1,9 @@
+html {
+  background: linear-gradient(0deg, #1b1b5e, #0e0f38);
+}
+
 #container {
   box-sizing: border-box;
-  background-color: #5c77e34d;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
@@ -12,6 +15,20 @@
   text-decoration: none;
   display: flex;
   position: fixed;
+  top: 0;
+}
+
+#sub-container {
+  background: linear-gradient(0deg, #5c77e3fc, #0e0f38);
+  width: 100%;
+  margin: 10px;
+}
+
+#container img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  box-shadow: 1px 1px 2px #3b5977;
 }
 
 img {
@@ -42,18 +59,19 @@ nav li a {
   top: 50px;
 }
 
-#chart {
+.chart {
   background-color: #c9b84980;
   border-radius: 3px;
   width: 400px;
   height: 200px;
-  position: absolute;
   top: 500px;
 }
 
+#space {
+  height: 200px;
+}
+
 main {
-  text-align: center;
-  background-image: url("traffic-background.cdf6113d.jpg");
   background-size: cover;
   height: 800px;
 }
@@ -81,5 +99,19 @@ main {
 
 a:hover {
   box-shadow: 1px 2px 5px #2a5e96;
+}
+
+#charts {
+  display: flex;
+}
+
+.grd {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 15px;
+  display: grid;
+}
+
+.grd li:nth-last-of-type(5) {
+  grid-column: 2 / 4;
 }
 /*# sourceMappingURL=index.8398b015.css.map */

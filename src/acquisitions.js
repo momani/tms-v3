@@ -60,7 +60,9 @@ import Chart from "chart.js/auto";
     { year: 2016, count: 11 },  
   ];
 
-  new Chart(document.getElementById("acquisitions"), {
+  new Chart(document.getElementsByClassName("acquisitions"), {
+  // new Chart(document.getElementsByName("ch"), {
+
     type: "line",
     options: {
       animation: false,
